@@ -26,7 +26,7 @@ const templateData = {
 };
 
 // Load template
-const template = readFileSync(join(root, "index.template.html"), "utf-8");
+const template = readFileSync(join(root, "templates/index.template.html"), "utf-8");
 
 // Replace placeholders
 let html = template;
