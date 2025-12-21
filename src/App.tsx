@@ -14,7 +14,13 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/sam.json")
+    const params = new URLSearchParams(window.location.search);
+    const companyCode = params.get("cc");
+    const dataPath = companyCode
+      ? `/data/sam-${companyCode}.json`
+      : "/data/sam.json";
+
+    fetch(dataPath)
       .then((res) => res.json())
       .then((json: CVData) => {
         setData(json);

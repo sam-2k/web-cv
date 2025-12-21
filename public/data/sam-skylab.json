@@ -1,0 +1,290 @@
+{
+  "personal": {
+    "firstName": "Tran Nguyen",
+    "lastName": "Anh Tu",
+    "title": "Front-End Developer",
+    "tagline": "Building Modern, High-Performance Web Experiences",
+    "description": "Front-end developer with 4+ years of experience building responsive, high-performance web applications using React.js and Next.js. Skilled in translating UI/UX designs into pixel-perfect interfaces, optimizing for speed and scalability, and collaborating effectively in Agile teams. I write clean, maintainable code and take ownership from development through deployment.",
+    "dateOfBirth": "2000-09-10",
+    "location": {
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "shortCode": "TP.HCM"
+    },
+    "avatar": null,
+    "logo": "TNAT.DEV"
+  },
+  "contact": {
+    "email": "trannguyenanhtu1092@gmail.com",
+    "github": "https://github.com/kakalak11",
+    "linkedin": null,
+    "website": null
+  },
+  "skills": [
+    {
+      "id": "javascript",
+      "name": "JavaScript / TypeScript",
+      "logo": "/logo/JavaScript.png",
+      "description": "ES6+, TypeScript for building dynamic, type-safe web applications",
+      "proficiency": "expert"
+    },
+    {
+      "id": "react",
+      "name": "React.js",
+      "logo": "/logo/React.png",
+      "description": "Component-based UI development, Redux state management, reusable component libraries",
+      "proficiency": "competent"
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "logo": "/logo/Nextjs.png",
+      "description": "SSR, SSG, API routes, dynamic routing, and optimized full-stack React applications",
+      "yearsExperience": 1,
+      "proficiency": "competent"
+    },
+    {
+      "id": "html-css",
+      "name": "HTML5 / CSS3",
+      "logo": "/logo/HTML5.png",
+      "description": "Semantic markup, responsive layouts, CSS preprocessors (SASS), animations, cross-browser compatibility",
+      "proficiency": "advanced"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "logo": "/logo/Nodejs.png",
+      "description": "Backend development, RESTful API integration, build tooling (Vite, Webpack)",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "cocos",
+      "name": "Cocos Creator",
+      "logo": "/logo/Cocos.png",
+      "description": "Interactive web experiences, animations, and cross-platform applications",
+      "proficiency": "competent"
+    }
+  ],
+  "experience": [
+    {
+      "id": "fetch",
+      "company": "Fetch Technology",
+      "role": "Front-End Developer",
+      "startDate": "2025-02",
+      "endDate": null,
+      "current": true,
+      "summary": "Developing modern web applications with React.js and Next.js, focusing on performance optimization and seamless API integration in an Agile environment.",
+      "projects": [
+        {
+          "id": "casual-games",
+          "name": "Casual Games Platform",
+          "description": "Real-time web application with WebSocket integration",
+          "startDate": "2025-02",
+          "endDate": "2025-05",
+          "role": "Front-End Developer",
+          "teamSize": 3,
+          "responsibilities": [
+            "Built responsive, high-performance UI components using React.js and Vite",
+            "Translated UI/UX designs into pixel-perfect web interfaces",
+            "Integrated RESTful APIs and WebSocket for real-time features",
+            "Optimized application performance for speed and scalability",
+            "Collaborated with backend team on API contracts and data flow",
+            "Participated in Agile/Scrum ceremonies for timely feature delivery",
+            "Debugged and troubleshot issues to improve product quality",
+            "Supported team members to balance workload and meet deadlines"
+          ],
+          "technologies": [
+            "React.js",
+            "Vite",
+            "WebSocket",
+            "REST API",
+            "HTML5",
+            "CSS3",
+            "Git"
+          ]
+        },
+        {
+          "id": "rectangle-landing",
+          "name": "Rectangle Games Landing Page",
+          "description": "SEO-optimized landing page with Next.js SSR/SSG",
+          "startDate": "2025-05",
+          "endDate": "2025-06",
+          "role": "Lead Developer",
+          "teamSize": 2,
+          "responsibilities": [
+            "Architected and developed entire UI using Next.js with SSR and SSG",
+            "Implemented responsive design for cross-device compatibility",
+            "Ensured pixel-perfect implementation of UI/UX designs",
+            "Wrote clean, maintainable, and scalable code following best practices",
+            "Conducted code reviews and mentored new team member",
+            "Managed version control workflow with Git"
+          ],
+          "technologies": [
+            "Next.js",
+            "React.js",
+            "SSR",
+            "SSG",
+            "HTML5",
+            "CSS3",
+            "Git"
+          ]
+        }
+      ],
+      "technologies": [
+        "React.js",
+        "Next.js",
+        "Vite",
+        "WebSocket",
+        "REST API",
+        "HTML5",
+        "CSS3",
+        "Git"
+      ]
+    },
+    {
+      "id": "enotion",
+      "company": "Enotion",
+      "role": "Front-End Developer",
+      "startDate": "2021-01",
+      "endDate": "2025-01",
+      "current": false,
+      "summary": "Developed interactive web applications with focus on performance optimization, cross-platform deployment, and Agile collaboration.",
+      "responsibilities": [
+        "Built responsive, high-performance web interfaces using JavaScript/TypeScript",
+        "Translated design mockups into pixel-perfect UI components",
+        "Implemented reusable component libraries for consistent UI patterns",
+        "Optimized application performance (drawcalls, network requests, load times)",
+        "Integrated with backend APIs and defined FE-BE contracts",
+        "Collaborated with design team to ensure technical feasibility of UI/UX",
+        "Participated in Agile workflow with Jira for task management",
+        "Wrote clean, maintainable code following development best practices",
+        "Conducted code reviews and maintained shared codebase",
+        "Debugged and resolved cross-browser and cross-device compatibility issues",
+        "Deployed applications to staging and production environments",
+        "Built internal tools using Node.js and Chrome Extensions"
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Node.js",
+        "REST API",
+        "Cocos Creator",
+        "Electron",
+        "Git",
+        "Jira"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "ueh",
+      "institution": "UEH",
+      "institutionFullName": "University of Economics Ho Chi Minh City",
+      "degree": "Bachelor's Degree",
+      "field": null,
+      "startDate": "2018",
+      "endDate": "2022",
+      "graduated": true
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "proficiency": "native"
+    },
+    {
+      "language": "English",
+      "proficiency": "fluent",
+      "note": "Strong verbal and written communication; proven experience collaborating with international teams"
+    }
+  ],
+  "highlights": [
+    "4+ years building responsive, high-performance web applications",
+    "Hands-on experience with React.js, Next.js (SSR/SSG), and modern JavaScript (ES6+, TypeScript)",
+    "Skilled in translating UI/UX designs into pixel-perfect, scalable interfaces",
+    "Strong focus on performance optimization and cross-browser/cross-device compatibility",
+    "Experienced in RESTful API integration and backend collaboration",
+    "Proficient with Git version control and Agile/Scrum workflows",
+    "Writes clean, maintainable code with attention to best practices",
+    "Excellent communication and teamwork abilities"
+  ],
+  "projects": [
+    {
+      "id": "2048",
+      "title": "2048",
+      "description": "Classic 2048 puzzle game implementation",
+      "icon": "🎲",
+      "technologies": ["Cocos", "Tween", "Mask"],
+      "liveUrl": "https://kakalak11.github.io/2048/build/web-desktop/index.html",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "solitaire",
+      "title": "Solitaire",
+      "description": "Classic card game with smooth animations",
+      "icon": "🃏",
+      "technologies": [
+        "Cocos",
+        "AssetManager",
+        "PersistNode",
+        "Animation",
+        "AnimationClip",
+        "Widget"
+      ],
+      "liveUrl": "https://kakalak-solitaire.netlify.app/",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "minesweeper",
+      "title": "Minesweeper",
+      "description": "Classic minesweeper game with grid-based gameplay",
+      "icon": "💣",
+      "technologies": ["Cocos", "Layout Grid", "Collider2D"],
+      "liveUrl": "https://kakalak-minesweeper.netlify.app/",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "plinko",
+      "title": "Plinko",
+      "description": "Physics-based game built with React and Matter.js",
+      "icon": "⚪",
+      "technologies": ["React.js", "HTML5", "CSS3", "Matter.js"],
+      "liveUrl": "https://kakalak-plinko.netlify.app/",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "cat-page",
+      "title": "Cat Page",
+      "description": "Side project exploring lightweight JavaScript frameworks",
+      "icon": "🐱",
+      "technologies": ["HTML5", "CSS3", "VanJS"],
+      "liveUrl": "https://kakalak-cat-page.netlify.app/",
+      "githubUrl": "https://github.com/kakalak11/cat-view/tree/main",
+      "featured": false
+    }
+  ],
+  "navigation": [
+    { "id": "about", "label": "ABOUT", "href": "#about" },
+    { "id": "skills", "label": "SKILLS", "href": "#skills" },
+    { "id": "experience", "label": "EXPERIENCE", "href": "#experience" },
+    { "id": "projects", "label": "PROJECTS", "href": "#projects" },
+    { "id": "contact", "label": "CONTACT", "href": "#contact" }
+  ],
+  "meta": {
+    "version": "2.1.0",
+    "lastUpdated": "2025-12-21",
+    "theme": {
+      "primary": "#00f0ff",
+      "secondary": "#ff00aa",
+      "accent": "#f0ff00",
+      "background": "#0a0a0f",
+      "surface": "#1a1a24"
+    }
+  }
+}
