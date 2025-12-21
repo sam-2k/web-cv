@@ -1,12 +1,13 @@
-import { useEffect, useState } from "react";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
+import { lazy, Suspense, useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import type { CVData } from "./types";
+
+const Skills = lazy(() => import("./components/Skills"));
+const Experience = lazy(() => import("./components/Experience"));
+const Projects = lazy(() => import("./components/Projects"));
+const Contact = lazy(() => import("./components/Contact"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   const [data, setData] = useState<CVData | null>(null);
@@ -38,11 +39,13 @@ function App() {
       <div className="bg-grid" />
       <Navbar logo={data.personal.logo} navigation={data.navigation} />
       <Hero personal={data.personal} languages={data.languages} />
-      <Skills skills={data.skills} />
-      <Experience experience={data.experience} />
-      <Projects projects={data.projects} />
-      <Contact contact={data.contact} personal={data.personal} />
-      <Footer personal={data.personal} />
+      <Suspense fallback={null}>
+        <Skills skills={data.skills} />
+        <Experience experience={data.experience} />
+        <Projects projects={data.projects} />
+        <Contact contact={data.contact} personal={data.personal} />
+        <Footer personal={data.personal} />
+      </Suspense>
     </>
   );
 }
