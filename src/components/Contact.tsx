@@ -25,10 +25,6 @@ export default function Contact({ contact, personal }: ContactProps) {
                 <span className="contact-link-icon">✉️</span>
                 {contact.email}
               </a>
-              <a href={`tel:${contact.phone}`} className="contact-link">
-                <span className="contact-link-icon">📱</span>
-                {contact.phone}
-              </a>
               {contact.github && (
                 <a
                   href={contact.github}

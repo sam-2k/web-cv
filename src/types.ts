@@ -16,7 +16,6 @@ export interface Personal {
 
 export interface Contact {
   email: string
-  phone: string
   github: string
   linkedin: string | null
   website: string | null

@@ -809,10 +809,21 @@ footer p {
     .contact-content {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: 60px;
+    }
+
+    .contact-info p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-links {
         align-items: center;
+    }
+
+    .contact-visual {
+        width: 100%;
     }
 }
 
@@ -839,5 +850,54 @@ footer p {
 
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* Contact Section Mobile Fixes */
+    .contact-content {
+        gap: 40px;
+    }
+
+    .contact-info h3 {
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+        margin-bottom: 24px;
+    }
+
+    .contact-links {
+        align-items: flex-start;
+    }
+
+    .contact-link {
+        font-size: 0.9rem;
+        word-break: break-all;
+    }
+
+    .contact-link-icon {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+    }
+
+    .contact-card {
+        padding: 30px 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-card-name {
+        font-size: 1.25rem;
+    }
+
+    .contact-card-title {
+        font-size: 0.9rem;
+        margin-bottom: 16px;
+    }
+
+    .contact-card-location {
+        font-size: 0.8rem;
     }
 }
