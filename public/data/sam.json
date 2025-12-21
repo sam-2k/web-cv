@@ -3,8 +3,8 @@
     "firstName": "Tran Nguyen",
     "lastName": "Anh Tu",
     "title": "Front-End Developer",
-    "tagline": "Building Interactive Gaming Experiences",
-    "description": "Specializing in slot game development using Cocos Creator engine. 3+ years of experience transforming creative visions into polished, performant games across web and mobile platforms.",
+    "tagline": "Crafting Engaging Digital Experiences",
+    "description": "Front-end developer with 3+ years of experience building performant web applications and interactive experiences. Passionate about turning complex ideas into intuitive, polished products — if it's interesting, I'll build it.",
     "dateOfBirth": "2000-09-10",
     "location": {
       "city": "Ho Chi Minh City",
@@ -23,46 +23,47 @@
   },
   "skills": [
     {
-      "id": "cocos",
-      "name": "Cocos Creator",
-      "icon": "🎮",
-      "description": "Primary game engine for slot game development, animations, and UI implementation",
-      "proficiency": "expert"
-    },
-    {
-      "id": "unity",
-      "name": "Unity",
-      "icon": "🎯",
-      "description": "Game development experience with Unity engine for diverse project requirements",
-      "proficiency": "intermediate"
-    },
-    {
       "id": "javascript",
       "name": "JavaScript / TypeScript",
-      "icon": "⚡",
-      "description": "Core programming languages for game logic, feature development, and API integration",
+      "logo": "/logo/JavaScript.png",
+      "description": "Core programming languages for building dynamic web applications and complex front-end logic",
       "proficiency": "expert"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "logo": "/logo/React.png",
+      "description": "Component-based UI development with modern React patterns and state management",
+      "proficiency": "competent"
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "logo": "/logo/Nextjs.png",
+      "description": "Full-stack React framework for server-side rendering, API routes, and optimized web apps",
+      "yearsExperience": 1,
+      "proficiency": "competent"
+    },
+    {
+      "id": "cocos",
+      "name": "Cocos Creator",
+      "logo": "/logo/Cocos.png",
+      "description": "Game engine for building interactive experiences, animations, and cross-platform applications",
+      "proficiency": "competent"
     },
     {
       "id": "nodejs",
       "name": "Node.js",
-      "icon": "🔧",
-      "description": "Backend tooling, file manipulation, and development automation",
+      "logo": "/logo/Nodejs.png",
+      "description": "Backend development, tooling, API integration, and development automation",
       "proficiency": "intermediate"
     },
     {
       "id": "html-css",
       "name": "HTML / CSS",
-      "icon": "🎨",
-      "description": "Web interface development, custom tools UI, and responsive design",
+      "logo": "/logo/HTML5.png",
+      "description": "Semantic markup, responsive layouts, animations, and modern CSS techniques",
       "proficiency": "advanced"
-    },
-    {
-      "id": "react",
-      "name": "React",
-      "icon": "⚛️",
-      "description": "Modern web application development and component-based architecture",
-      "proficiency": "intermediate"
     }
   ],
   "experience": [
@@ -106,8 +107,8 @@
       "id": "ueh",
       "institution": "UEH",
       "institutionFullName": "University of Economics Ho Chi Minh City",
-      "degree": "Bachelor of Business Administration",
-      "field": "Business Administration",
+      "degree": "Bachelor's Degree",
+      "field": null,
       "startDate": "2018",
       "endDate": "2022",
       "graduated": true
@@ -120,9 +121,8 @@
     },
     {
       "language": "English",
-      "proficiency": "professional",
-      "certification": "IELTS",
-      "score": "6.5"
+      "proficiency": "fluent",
+      "note": "Proven experience collaborating with international teams"
     }
   ],
   "projects": [
@@ -164,39 +164,19 @@
       "featured": true
     },
     {
-      "id": "pizza-order",
-      "title": "Pizza Order",
-      "description": "Learning HTML/CSS with Udemy - Pizza ordering web application",
-      "icon": "🍕",
-      "technologies": ["HTML", "CSS", "React"],
-      "liveUrl": "https://kakalak-pizzashop.netlify.app/",
-      "githubUrl": null,
-      "featured": false
-    },
-    {
-      "id": "shooter",
-      "title": "Shooter",
-      "description": "Learning project - 2D shooter game with physics",
-      "icon": "🔫",
-      "technologies": ["Cocos", "TiledMap", "RigidBody2D", "Collider2D"],
-      "liveUrl": "https://kakalak-shooter.netlify.app/",
-      "githubUrl": null,
-      "featured": false
-    },
-    {
       "id": "plinko",
       "title": "Plinko",
-      "description": "Trying out Matter.js - Physics-based Plinko game",
+      "description": "Physics-based Plinko game using Matter.js",
       "icon": "⚪",
       "technologies": ["HTML", "CSS", "React", "Matter.js"],
       "liveUrl": "https://kakalak-plinko.netlify.app/",
       "githubUrl": null,
-      "featured": false
+      "featured": true
     },
     {
       "id": "cat-page",
       "title": "Cat Page",
-      "description": "Side project using VanJS, an alternative to React",
+      "description": "Side project exploring VanJS as a React alternative",
       "icon": "🐱",
       "technologies": ["HTML", "CSS", "VanJS"],
       "liveUrl": "https://kakalak-cat-page.netlify.app/",
@@ -212,7 +192,7 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "lastUpdated": "2024-12-21",
     "theme": {
       "primary": "#00f0ff",
