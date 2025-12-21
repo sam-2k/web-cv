@@ -20,22 +20,22 @@ function ProjectCard({ project }: { project: ExperienceProject }) {
   return (
     <div className="experience-project">
       <div className="project-header">
-        <h4 className="project-name">{project.name}</h4>
-        <span className="project-period">{formatPeriod(project.startDate, project.endDate)}</span>
+        <h4 className="project-name text-xl text-bold">{project.name}</h4>
+        <span className="project-period text-xs text-mono text-muted">{formatPeriod(project.startDate, project.endDate)}</span>
       </div>
-      <p className="project-description">{project.description}</p>
-      <p className="project-meta">
-        <span className="project-role">{project.role}</span>
-        <span className="project-team">Team of {project.teamSize}</span>
+      <p className="project-description text-base text-secondary">{project.description}</p>
+      <p className="project-meta text-base">
+        <span className="project-role text-accent">{project.role}</span>
+        <span className="project-team text-muted">Team of {project.teamSize}</span>
       </p>
       <ul className="task-list">
         {project.responsibilities.map((task, index) => (
-          <li key={index}>{task}</li>
+          <li key={index} className="text-base">{task}</li>
         ))}
       </ul>
       <div className="tech-tags">
         {project.technologies.map(tech => (
-          <span key={tech} className="tech-tag">{tech}</span>
+          <span key={tech} className="tech-tag text-xs text-mono">{tech}</span>
         ))}
       </div>
     </div>
@@ -47,22 +47,22 @@ export default function Experience({ experience }: ExperienceProps) {
     <section id="experience">
       <div className="container">
         <div className="section-header">
-          <p className="section-label">CAREER</p>
-          <h2 className="section-title">Work Experience</h2>
+          <p className="section-label text-sm text-mono tracking-wider">{`CAREER`}</p>
+          <h2 className="section-title text-4xl text-bold">Work Experience</h2>
         </div>
         {experience.map(exp => (
           <div key={exp.id} className="experience-content">
             <div className="experience-sidebar">
               <div className="company-info">
-                <h3 className="company-name">{exp.company}</h3>
-                <p className="company-role">{exp.role}</p>
-                <p className="company-period">
+                <h3 className="company-name text-2xl text-bold text-accent">{exp.company}</h3>
+                <p className="company-role text-lg text-secondary">{exp.role}</p>
+                <p className="company-period text-sm text-mono text-muted">
                   {formatPeriod(exp.startDate, exp.endDate, exp.current)}
                 </p>
               </div>
             </div>
             <div className="experience-details">
-              <h3>{exp.summary}</h3>
+              <h3 className="text-xl text-bold">{exp.summary}</h3>
               {exp.projects && exp.projects.length > 0 ? (
                 <div className="experience-projects">
                   {exp.projects.map(project => (
@@ -72,15 +72,15 @@ export default function Experience({ experience }: ExperienceProps) {
               ) : exp.responsibilities && (
                 <ul className="task-list">
                   {exp.responsibilities.map((task, index) => (
-                    <li key={index}>{task}</li>
+                    <li key={index} className="text-base">{task}</li>
                   ))}
                 </ul>
               )}
               <div className="tech-stack">
-                <h4>TECHNOLOGIES USED</h4>
+                <h4 className="text-sm text-muted tracking-wide">TECHNOLOGIES USED</h4>
                 <div className="tech-tags">
                   {exp.technologies.map(tech => (
-                    <span key={tech} className="tech-tag">{tech}</span>
+                    <span key={tech} className="tech-tag text-sm text-mono text-accent">{tech}</span>
                   ))}
                 </div>
               </div>

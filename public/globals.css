@@ -19,6 +19,17 @@
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Typography Scale - ATOMIC Design */
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: clamp(2.5rem, 5vw, 3.5rem);
+  --text-5xl: clamp(3.5rem, 7vw, 6rem);
 }
 
 [data-theme="light"] {
@@ -74,6 +85,49 @@
   --gradient-glow: linear-gradient(135deg, #ff6b6b, #a855f7);
   --accent-cyan: #ff6b6b;
 }
+
+/* ============================================
+   ATOMIC Typography Component
+   Usage: .text-{size} .text-{variant}
+   ============================================ */
+
+/* Size variants */
+.text-xs { font-size: var(--text-xs); }
+.text-sm { font-size: var(--text-sm); }
+.text-base { font-size: var(--text-base); }
+.text-lg { font-size: var(--text-lg); }
+.text-xl { font-size: var(--text-xl); }
+.text-2xl { font-size: var(--text-2xl); }
+.text-3xl { font-size: var(--text-3xl); }
+.text-4xl { font-size: var(--text-4xl); }
+.text-5xl { font-size: var(--text-5xl); }
+
+/* Style variants */
+.text-mono { font-family: var(--font-mono); }
+.text-gradient {
+  background: var(--gradient-glow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
+.text-accent { color: var(--accent-cyan); }
+
+/* Weight variants */
+.text-light { font-weight: 300; }
+.text-normal { font-weight: 400; }
+.text-medium { font-weight: 500; }
+.text-semibold { font-weight: 600; }
+.text-bold { font-weight: 700; }
+
+/* Tracking variants */
+.tracking-tight { letter-spacing: -0.02em; }
+.tracking-normal { letter-spacing: 0; }
+.tracking-wide { letter-spacing: 0.05em; }
+.tracking-wider { letter-spacing: 0.1em; }
+.tracking-widest { letter-spacing: 0.2em; }
 
 * {
   margin: 0;
@@ -139,7 +193,6 @@ nav {
 
 .logo {
   font-family: var(--font-mono);
-  font-size: 1.2rem;
   font-weight: 700;
   color: var(--accent-cyan);
   text-decoration: none;
@@ -155,7 +208,6 @@ nav {
 .nav-links a {
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 1px;
   transition: all 0.3s ease;
@@ -214,7 +266,6 @@ nav {
 
 .hero-label {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
   color: var(--accent-cyan);
   letter-spacing: 3px;
   margin-bottom: 20px;
@@ -225,7 +276,6 @@ nav {
 }
 
 .hero-name {
-  font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 20px;
@@ -241,7 +291,6 @@ nav {
 }
 
 .hero-title {
-  font-size: 1.5rem;
   color: var(--text-secondary);
   margin-bottom: 30px;
   font-weight: 300;
@@ -250,7 +299,6 @@ nav {
 
 .hero-description {
   color: var(--text-muted);
-  font-size: 1.1rem;
   max-width: 500px;
   margin-bottom: 40px;
   animation: fadeInUp 1s ease 0.8s both;
@@ -264,7 +312,6 @@ nav {
 
 .btn {
   padding: 16px 32px;
-  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
@@ -353,7 +400,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
   font-weight: 700;
   color: var(--bg-primary);
 }
@@ -367,7 +413,6 @@ nav {
   border-radius: 8px;
   border: 1px solid rgba(0, 240, 255, 0.2);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
   animation: float 3s ease-in-out infinite;
 }
 
@@ -408,14 +453,12 @@ section {
 
 .section-label {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
   color: var(--accent-magenta);
   letter-spacing: 3px;
   margin-bottom: 16px;
 }
 
 .section-title {
-  font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
 }
 
@@ -465,7 +508,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
   margin-bottom: 24px;
   overflow: hidden;
 }
@@ -478,20 +520,17 @@ section {
 }
 
 .skill-icon-fallback {
-  font-size: 1.5rem;
   font-weight: 600;
   color: var(--primary);
 }
 
 .skill-name {
-  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
 .skill-desc {
   color: var(--text-muted);
-  font-size: 0.95rem;
 }
 
 /* Experience Section */
@@ -515,26 +554,22 @@ section {
 }
 
 .company-name {
-  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 8px;
   color: var(--accent-cyan);
 }
 
 .company-role {
-  font-size: 1.1rem;
   color: var(--text-secondary);
   margin-bottom: 16px;
 }
 
 .company-period {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
   color: var(--text-muted);
 }
 
 .experience-details h3 {
-  font-size: 1.3rem;
   margin-bottom: 24px;
   color: var(--text-primary);
 }
@@ -566,7 +601,6 @@ section {
 }
 
 .tech-stack h4 {
-  font-size: 0.9rem;
   letter-spacing: 2px;
   color: var(--text-muted);
   margin-bottom: 20px;
@@ -583,7 +617,6 @@ section {
   background: var(--bg-card);
   border-radius: 4px;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
   color: var(--accent-cyan);
   border: 1px solid rgba(0, 240, 255, 0.2);
 }
@@ -613,7 +646,6 @@ section {
 }
 
 .experience-project .project-name {
-  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
@@ -621,13 +653,11 @@ section {
 
 .experience-project .project-period {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
   color: var(--text-muted);
 }
 
 .experience-project .project-description {
   color: var(--text-secondary);
-  font-size: 0.95rem;
   margin-bottom: 12px;
 }
 
@@ -635,7 +665,6 @@ section {
   display: flex;
   gap: 20px;
   margin-bottom: 16px;
-  font-size: 0.9rem;
 }
 
 .experience-project .project-role {
@@ -653,7 +682,6 @@ section {
 .experience-project .task-list li {
   padding: 10px 0;
   padding-left: 24px;
-  font-size: 0.9rem;
 }
 
 .experience-project .tech-tags {
@@ -662,7 +690,6 @@ section {
 
 .experience-project .tech-tag {
   padding: 6px 12px;
-  font-size: 0.75rem;
 }
 
 /* Projects Section */
@@ -712,7 +739,6 @@ section {
 }
 
 .project-icon {
-  font-size: 4rem;
   opacity: 0.5;
 }
 
@@ -721,7 +747,6 @@ section {
 }
 
 .project-title {
-  font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -735,7 +760,6 @@ section {
 
 .project-tech span {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
   padding: 4px 10px;
   background: rgba(0, 240, 255, 0.1);
   color: var(--accent-cyan);
@@ -748,7 +772,6 @@ section {
   gap: 8px;
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 0.9rem;
   transition: all 0.3s ease;
 }
 
@@ -765,13 +788,11 @@ section {
 }
 
 .contact-info h3 {
-  font-size: 2rem;
   margin-bottom: 24px;
 }
 
 .contact-info p {
   color: var(--text-muted);
-  font-size: 1.1rem;
   margin-bottom: 40px;
 }
 
@@ -787,7 +808,6 @@ section {
   gap: 16px;
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 1.1rem;
   transition: all 0.3s ease;
 }
 
@@ -832,7 +852,6 @@ section {
 }
 
 .contact-card-name {
-  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -844,7 +863,6 @@ section {
 
 .contact-card-location {
   color: var(--text-muted);
-  font-size: 0.9rem;
 }
 
 /* Footer */
@@ -856,7 +874,6 @@ footer {
 
 footer p {
   color: var(--text-muted);
-  font-size: 0.9rem;
 }
 
 /* Responsive */
@@ -913,6 +930,19 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  /* Mobile Typography Scale Override */
+  :root {
+    --text-xs: 0.8rem;
+    --text-sm: 0.9rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.3rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.75rem;
+    --text-4xl: 2rem;
+    --text-5xl: 2.5rem;
+  }
+
   .container {
     padding: 0 16px;
   }
@@ -938,12 +968,7 @@ footer p {
   }
 
   .section-label {
-    font-size: 0.75rem;
     margin-bottom: 10px;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
   }
 
   /* Skills Mobile */
@@ -963,37 +988,21 @@ footer p {
   }
 
   .skill-name {
-    font-size: 1.1rem;
     margin-bottom: 8px;
-  }
-
-  .skill-desc {
-    font-size: 0.85rem;
   }
 
   /* Experience Mobile */
   .experience-content {
     gap: 30px;
+    margin-bottom: 30px;
   }
 
   .company-info {
     padding: 24px;
   }
 
-  .company-name {
-    font-size: 1.25rem;
-  }
-
-  .company-role {
-    font-size: 1rem;
-  }
-
   .experience-project {
     padding: 20px;
-  }
-
-  .experience-project .project-name {
-    font-size: 1.05rem;
   }
 
   .tech-stack {
@@ -1003,7 +1012,6 @@ footer p {
 
   .tech-tag {
     padding: 6px 12px;
-    font-size: 0.75rem;
   }
 
   /* Projects Mobile */
@@ -1021,7 +1029,6 @@ footer p {
   }
 
   .project-title {
-    font-size: 1.2rem;
     margin-bottom: 8px;
   }
 
@@ -1031,12 +1038,10 @@ footer p {
   }
 
   .contact-info h3 {
-    font-size: 1.5rem;
     margin-bottom: 16px;
   }
 
   .contact-info p {
-    font-size: 0.95rem;
     margin-bottom: 20px;
   }
 
@@ -1046,7 +1051,6 @@ footer p {
   }
 
   .contact-link {
-    font-size: 0.85rem;
     word-break: break-all;
   }
 
@@ -1062,26 +1066,13 @@ footer p {
     max-width: 280px;
   }
 
-  .contact-card-name {
-    font-size: 1.15rem;
-  }
-
   .contact-card-title {
-    font-size: 0.85rem;
     margin-bottom: 14px;
-  }
-
-  .contact-card-location {
-    font-size: 0.75rem;
   }
 
   /* Footer Mobile */
   footer {
     padding: 24px 0;
-  }
-
-  footer p {
-    font-size: 0.8rem;
   }
 }
 
