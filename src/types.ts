@@ -59,7 +59,7 @@ export interface Education {
   institution: string
   institutionFullName: string
   degree: string
-  field: string
+  field: string | null
   startDate: string
   endDate: string
   graduated: boolean

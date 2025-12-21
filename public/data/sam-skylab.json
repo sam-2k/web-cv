@@ -3,8 +3,8 @@
     "firstName": "Tran Nguyen",
     "lastName": "Anh Tu",
     "title": "Front-End Developer",
-    "tagline": "Building Modern, High-Performance Web Experiences",
-    "description": "Front-end developer with 4+ years of experience building responsive, high-performance web applications using React.js and Next.js. Skilled in translating UI/UX designs into pixel-perfect interfaces, optimizing for speed and scalability, and collaborating effectively in Agile teams. I write clean, maintainable code and take ownership from development through deployment.",
+    "tagline": "Building Modern, Fast Web Experiences",
+    "description": "Front-end developer with 4+ years of experience building responsive, fast web applications using React.js and Next.js. Good at turning UI/UX designs into pixel-perfect interfaces, improving performance, and using AI tools like Claude for better code quality. I write clean code and take ownership from development to deployment.",
     "dateOfBirth": "2000-09-10",
     "location": {
       "city": "Ho Chi Minh City",
@@ -44,6 +44,13 @@
       "proficiency": "competent"
     },
     {
+      "id": "ai-tools",
+      "name": "AI-Assisted Development",
+      "logo": "/logo/Claude.png",
+      "description": "Using Claude AI as a helpful tool—not a replacement—to write code faster, catch bugs early, start projects quickly, and spend less time on repetitive tasks",
+      "proficiency": "competent"
+    },
+    {
       "id": "html-css",
       "name": "HTML5 / CSS3",
       "logo": "/logo/HTML5.png",
@@ -73,7 +80,7 @@
       "startDate": "2025-02",
       "endDate": null,
       "current": true,
-      "summary": "Developing modern web applications with React.js and Next.js, focusing on performance optimization and seamless API integration in an Agile environment.",
+      "summary": "Building modern web applications with React.js and Next.js, focusing on performance, API integration, and using AI tools for code quality. Can work well under pressure—responding quickly to production issues and meeting tight deadlines while keeping quality high in an Agile environment.",
       "projects": [
         {
           "id": "casual-games",
@@ -84,13 +91,16 @@
           "role": "Front-End Developer",
           "teamSize": 3,
           "responsibilities": [
-            "Built responsive, high-performance UI components using React.js and Vite",
-            "Translated UI/UX designs into pixel-perfect web interfaces",
+            "Built responsive, fast UI components using React.js and Vite",
+            "Turned UI/UX designs into pixel-perfect web interfaces",
             "Integrated RESTful APIs and WebSocket for real-time features",
-            "Optimized application performance for speed and scalability",
-            "Collaborated with backend team on API contracts and data flow",
-            "Participated in Agile/Scrum ceremonies for timely feature delivery",
-            "Debugged and troubleshot issues to improve product quality",
+            "Used Claude AI for code review, finding bugs, and keeping code quality high",
+            "Improved application performance for speed and scalability",
+            "Worked with backend team on API contracts and data flow",
+            "Joined Agile/Scrum meetings to deliver features on time",
+            "Responded quickly to production issues under tight deadlines",
+            "Worked well under pressure while delivering quality work",
+            "Fixed and troubleshot issues with AI-assisted analysis",
             "Supported team members to balance workload and meet deadlines"
           ],
           "technologies": [
@@ -112,12 +122,14 @@
           "role": "Lead Developer",
           "teamSize": 2,
           "responsibilities": [
-            "Architected and developed entire UI using Next.js with SSR and SSG",
-            "Implemented responsive design for cross-device compatibility",
-            "Ensured pixel-perfect implementation of UI/UX designs",
+            "Built entire UI using Next.js with SSR and SSG",
+            "Made responsive design for all devices",
+            "Delivered pixel-perfect UI/UX designs",
+            "Used Claude AI for code refactoring and keeping codebase clean",
             "Wrote clean, maintainable, and scalable code following best practices",
-            "Conducted code reviews and mentored new team member",
-            "Managed version control workflow with Git"
+            "Did code reviews with AI-assisted quality checks",
+            "Trained new team member on codebase and workflows",
+            "Managed version control with Git"
           ],
           "technologies": [
             "Next.js",
@@ -148,18 +160,18 @@
       "startDate": "2021-01",
       "endDate": "2025-01",
       "current": false,
-      "summary": "Developed interactive web applications with focus on performance optimization, cross-platform deployment, and Agile collaboration.",
+      "summary": "Built interactive web applications focusing on performance, cross-platform deployment, and Agile teamwork.",
       "responsibilities": [
-        "Built responsive, high-performance web interfaces using JavaScript/TypeScript",
-        "Translated design mockups into pixel-perfect UI components",
-        "Implemented reusable component libraries for consistent UI patterns",
-        "Optimized application performance (drawcalls, network requests, load times)",
-        "Integrated with backend APIs and defined FE-BE contracts",
-        "Collaborated with design team to ensure technical feasibility of UI/UX",
-        "Participated in Agile workflow with Jira for task management",
-        "Wrote clean, maintainable code following development best practices",
-        "Conducted code reviews and maintained shared codebase",
-        "Debugged and resolved cross-browser and cross-device compatibility issues",
+        "Built responsive, fast web interfaces using JavaScript/TypeScript",
+        "Turned design mockups into pixel-perfect UI components",
+        "Built reusable component libraries for consistent UI",
+        "Improved application performance (drawcalls, network requests, load times)",
+        "Integrated with backend APIs and defined front-end/back-end contracts",
+        "Worked with design team to check if UI/UX designs are doable",
+        "Used Agile workflow with Jira for task management",
+        "Wrote clean, maintainable code following best practices",
+        "Did code reviews and maintained shared codebase",
+        "Fixed cross-browser and cross-device issues",
         "Deployed applications to staging and production environments",
         "Built internal tools using Node.js and Chrome Extensions"
       ],
@@ -197,18 +209,20 @@
     {
       "language": "English",
       "proficiency": "fluent",
-      "note": "Strong verbal and written communication; proven experience collaborating with international teams"
+      "note": "Good speaking and writing skills; experience working with international teams"
     }
   ],
   "highlights": [
-    "4+ years building responsive, high-performance web applications",
+    "4+ years building responsive, fast web applications",
     "Hands-on experience with React.js, Next.js (SSR/SSG), and modern JavaScript (ES6+, TypeScript)",
-    "Skilled in translating UI/UX designs into pixel-perfect, scalable interfaces",
-    "Strong focus on performance optimization and cross-browser/cross-device compatibility",
-    "Experienced in RESTful API integration and backend collaboration",
-    "Proficient with Git version control and Agile/Scrum workflows",
-    "Writes clean, maintainable code with attention to best practices",
-    "Excellent communication and teamwork abilities"
+    "Can work well under pressure and meet tight deadlines",
+    "Sees AI as a helpful tool—not a replacement—to write better code faster",
+    "Good at turning UI/UX designs into pixel-perfect, scalable interfaces",
+    "Focus on performance and cross-browser/cross-device support",
+    "Experience with RESTful API integration and backend teamwork",
+    "Skilled with Git and Agile/Scrum workflows",
+    "Writes clean, maintainable code following best practices",
+    "Good communication and teamwork skills"
   ],
   "projects": [
     {
@@ -277,7 +291,7 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "lastUpdated": "2025-12-21",
     "theme": {
       "primary": "#00f0ff",

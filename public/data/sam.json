@@ -3,8 +3,8 @@
     "firstName": "Tran Nguyen",
     "lastName": "Anh Tu",
     "title": "Front-End Developer",
-    "tagline": "Crafting Engaging Digital Experiences",
-    "description": "Front-end developer with 4+ years of experience building performant web applications and interactive experiences. I take ownership of the products I build, embrace new technologies, and thrive on turning complex ideas into polished, user-focused solutions.",
+    "tagline": "Building Engaging Web Experiences",
+    "description": "Front-end developer with 4+ years of experience building fast web applications and interactive products. I take ownership of my work, learn new technologies quickly including AI tools, and enjoy turning ideas into clean, user-friendly solutions.",
     "dateOfBirth": "2000-09-10",
     "location": {
       "city": "Ho Chi Minh City",
@@ -44,6 +44,13 @@
       "proficiency": "competent"
     },
     {
+      "id": "ai-tools",
+      "name": "AI-Assisted Development",
+      "logo": "/logo/Claude.png",
+      "description": "Using Claude AI as a helpful tool—not a replacement—to write code faster, catch bugs early, start projects quickly, and spend less time on repetitive tasks",
+      "proficiency": "competent"
+    },
+    {
       "id": "cocos",
       "name": "Cocos Creator",
       "logo": "/logo/Cocos.png",
@@ -73,7 +80,7 @@
       "startDate": "2025-02",
       "endDate": null,
       "current": true,
-      "summary": "Working with Fetch's clients, leveraging domain expertise to maintain and enhance products while seizing every opportunity to grow and contribute.",
+      "summary": "Working with Fetch's clients, using my experience and AI tools to maintain and improve products. Can work well under pressure—responding quickly to production issues and meeting tight deadlines while keeping code quality high.",
       "projects": [
         {
           "id": "casual-games",
@@ -85,10 +92,12 @@
           "teamSize": 3,
           "responsibilities": [
             "Implement game logic and game UI",
-            "Collaborate with designers to improve product quality",
+            "Work with designers to improve product quality",
             "Integrate with back-end services",
-            "Work with QA to maintain and resolve issues",
-            "Respond quickly to production issues",
+            "Use Claude AI to review code, find bugs, and keep code quality high",
+            "Work with QA to fix and resolve issues",
+            "Respond quickly to production issues under tight deadlines",
+            "Work well under pressure while delivering quality work",
             "Support team members to balance workload"
           ],
           "technologies": ["WebSocket", "Vite", "React", "HTML", "CSS"]
@@ -103,7 +112,8 @@
           "teamSize": 2,
           "responsibilities": [
             "Responsible for entire UI implementation",
-            "Onboard and mentor new team member"
+            "Use Claude AI for code refactoring and keeping codebase clean and scalable",
+            "Train and support new team member"
           ],
           "technologies": ["Next.js", "React", "HTML", "CSS"]
         }
@@ -119,17 +129,17 @@
       "current": false,
       "summary": "Developed slot games using Cocos engine, taking ownership from project kickoff to deployment across web and mobile platforms.",
       "responsibilities": [
-        "Led project kick-start meetings and identified FE-BE contract conflicts",
-        "Broke down tasks, managed Jira tickets, and coordinated team assignments",
+        "Led project kick-off meetings and identified front-end/back-end conflicts",
+        "Broke down tasks, managed Jira tickets, and assigned work to team members",
         "Defined API contracts with back-end team for new features",
-        "Initialized project repositories and developed features in JavaScript/TypeScript",
-        "Transformed design mockups into polished UI elements in Cocos Creator",
-        "Implemented animation logic in collaboration with animation team",
+        "Set up project repositories and developed features in JavaScript/TypeScript",
+        "Turned design mockups into polished UI elements in Cocos Creator",
+        "Implemented animation logic with the animation team",
         "Deployed to staging and production environments (web and mobile)",
         "Optimized performance including drawcalls and network requests",
-        "Debugged mobile issues using Xcode and Android Studio",
-        "Collaborated with QC to ensure release-ready quality",
-        "Maintained legacy projects and migrated to newer Cocos versions",
+        "Fixed mobile issues using Xcode and Android Studio",
+        "Worked with QC to ensure release-ready quality",
+        "Maintained old projects and upgraded to newer Cocos versions",
         "Built internal tools using Node.js and Chrome Extensions",
         "Contributed to and maintained shared codebase"
       ],
@@ -170,11 +180,13 @@
     }
   ],
   "highlights": [
-    "Takes full ownership of products from concept to deployment",
-    "Quick to learn and adopt new technologies",
-    "Proactive in supporting teammates and balancing workloads",
-    "Experience across web apps, games, and landing pages",
-    "Strong collaboration with designers, QA, and back-end teams"
+    "Takes full ownership of products from start to finish",
+    "Can work well under pressure and meet tight deadlines",
+    "Quick to learn new technologies including AI development tools",
+    "Sees AI as a tool to help—not replace—developers, making work faster and more reliable",
+    "Always ready to help teammates and share workload",
+    "Experience with web apps, games, and landing pages",
+    "Works well with designers, QA, and back-end teams"
   ],
   "projects": [
     {
@@ -243,7 +255,7 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "lastUpdated": "2025-12-21",
     "theme": {
       "primary": "#00f0ff",
