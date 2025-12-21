@@ -70,6 +70,13 @@
       "logo": "/logo/Cocos.png",
       "description": "Interactive web experiences, animations, and cross-platform applications",
       "proficiency": "competent"
+    },
+    {
+      "id": "pixijs",
+      "name": "Pixi.js",
+      "logo": "/logo/Pixijs.png",
+      "description": "2D rendering engine for creating interactive graphics and game visuals on the web",
+      "proficiency": "competent"
     }
   ],
   "experience": [
@@ -85,7 +92,7 @@
         {
           "id": "casual-games",
           "name": "Casual Games Platform",
-          "description": "Real-time web application with WebSocket integration",
+          "description": "Real-time web application with WebSocket integration including Coin Flip, Mines, and Crash games",
           "startDate": "2025-02",
           "endDate": "2025-05",
           "role": "Front-End Developer",
@@ -98,13 +105,14 @@
             "Improved application performance for speed and scalability",
             "Worked with backend team on API contracts and data flow",
             "Joined Agile/Scrum meetings to deliver features on time",
-            "Responded quickly to production issues under tight deadlines",
-            "Worked well under pressure while delivering quality work",
+            "Responded quickly to production issues and delivered quality work under tight deadlines",
             "Fixed and troubleshot issues with AI-assisted analysis",
             "Supported team members to balance workload and meet deadlines"
           ],
           "technologies": [
             "React.js",
+            "TypeScript",
+            "Pixi.js",
             "Vite",
             "WebSocket",
             "REST API",
@@ -134,6 +142,7 @@
           "technologies": [
             "Next.js",
             "React.js",
+            "TypeScript",
             "SSR",
             "SSG",
             "HTML5",
@@ -145,6 +154,8 @@
       "technologies": [
         "React.js",
         "Next.js",
+        "TypeScript",
+        "Pixi.js",
         "Vite",
         "WebSocket",
         "REST API",
@@ -291,7 +302,7 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "lastUpdated": "2025-12-21",
     "theme": {
       "primary": "#00f0ff",

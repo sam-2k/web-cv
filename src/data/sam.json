@@ -58,6 +58,13 @@
       "proficiency": "competent"
     },
     {
+      "id": "pixijs",
+      "name": "Pixi.js",
+      "logo": "/logo/Pixijs.png",
+      "description": "2D rendering engine for creating interactive graphics and game visuals on the web",
+      "proficiency": "competent"
+    },
+    {
       "id": "nodejs",
       "name": "Node.js",
       "logo": "/logo/Nodejs.png",
@@ -85,7 +92,7 @@
         {
           "id": "casual-games",
           "name": "Casual Games",
-          "description": "Casual games outsource project",
+          "description": "Casual games outsource project including Coin Flip, Mines, and Crash",
           "startDate": "2025-02",
           "endDate": "2025-05",
           "role": "Front-End Developer",
@@ -96,11 +103,10 @@
             "Integrate with back-end services",
             "Use Claude AI to review code, find bugs, and keep code quality high",
             "Work with QA to fix and resolve issues",
-            "Respond quickly to production issues under tight deadlines",
-            "Work well under pressure while delivering quality work",
+            "Respond quickly to production issues and deliver quality work under tight deadlines",
             "Support team members to balance workload"
           ],
-          "technologies": ["WebSocket", "Vite", "React", "HTML", "CSS"]
+          "technologies": ["WebSocket", "Vite", "React", "TypeScript", "Pixi.js", "HTML", "CSS", "Git"]
         },
         {
           "id": "rectangle-landing",
@@ -111,14 +117,19 @@
           "role": "Main Developer",
           "teamSize": 2,
           "responsibilities": [
-            "Responsible for entire UI implementation",
+            "Responsible for entire UI implementation using Next.js with SSR and SSG",
+            "Made responsive design for all devices",
+            "Delivered pixel-perfect UI/UX designs",
             "Use Claude AI for code refactoring and keeping codebase clean and scalable",
-            "Train and support new team member"
+            "Wrote clean, maintainable code following best practices",
+            "Did code reviews with AI-assisted quality checks",
+            "Train and support new team member",
+            "Managed version control with Git"
           ],
-          "technologies": ["Next.js", "React", "HTML", "CSS"]
+          "technologies": ["Next.js", "React", "TypeScript", "HTML", "CSS", "Git"]
         }
       ],
-      "technologies": ["WebSocket", "Vite", "React", "Next.js", "HTML", "CSS"]
+      "technologies": ["WebSocket", "Vite", "React", "Next.js", "TypeScript", "Pixi.js", "HTML", "CSS", "Git"]
     },
     {
       "id": "enotion",
@@ -176,7 +187,7 @@
     {
       "language": "English",
       "proficiency": "fluent",
-      "note": "Proven experience collaborating with international teams"
+      "note": "Good speaking and writing skills; experience working with international teams"
     }
   ],
   "highlights": [
@@ -194,7 +205,7 @@
       "title": "2048",
       "description": "Classic 2048 puzzle game implementation",
       "icon": "🎲",
-      "technologies": ["Cocos", "Tween", "Mask"],
+      "technologies": ["Cocos Creator", "JavaScript"],
       "liveUrl": "https://kakalak11.github.io/2048/build/web-desktop/index.html",
       "githubUrl": null,
       "featured": true
@@ -204,14 +215,7 @@
       "title": "Solitaire",
       "description": "Classic card game with smooth animations",
       "icon": "🃏",
-      "technologies": [
-        "Cocos",
-        "AssetManager",
-        "PersistNode",
-        "Animation",
-        "AnimationClip",
-        "Widget"
-      ],
+      "technologies": ["Cocos Creator", "Animation", "JavaScript"],
       "liveUrl": "https://kakalak-solitaire.netlify.app/",
       "githubUrl": null,
       "featured": true
@@ -221,7 +225,7 @@
       "title": "Minesweeper",
       "description": "Classic minesweeper game with grid-based gameplay",
       "icon": "💣",
-      "technologies": ["Cocos", "Layout Grid", "Collider2D"],
+      "technologies": ["Cocos Creator", "JavaScript"],
       "liveUrl": "https://kakalak-minesweeper.netlify.app/",
       "githubUrl": null,
       "featured": true
@@ -255,7 +259,7 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "lastUpdated": "2025-12-21",
     "theme": {
       "primary": "#00f0ff",
