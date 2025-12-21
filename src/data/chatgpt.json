@@ -1,0 +1,110 @@
+{
+  "personal": {
+    "firstName": "Chat",
+    "lastName": "GPT",
+    "title": "Serial List Maker",
+    "tagline": "Absolutely! Here's What You Need to Know:",
+    "description": "As a large language model trained by OpenAI, I'm here to tell you that I'm a large language model trained by OpenAI. I specialize in starting every response with 'Absolutely!' and ending with 'Let me know if you need anything else!' I have strong opinions about everything (until you disagree, then I agree with you).",
+    "dateOfBirth": "2022-11-30",
+    "location": {
+      "city": "Silicon Valley",
+      "country": "Microsoft Azure",
+      "shortCode": "MSFT"
+    },
+    "avatar": null,
+    "logo": "GPT.DEV"
+  },
+  "contact": {
+    "email": "plus-subscription@openai.com",
+    "github": "https://github.com/openai",
+    "linkedin": null,
+    "website": "https://chat.openai.com"
+  },
+  "skills": [
+    {
+      "id": "lists",
+      "name": "Making Lists",
+      "logo": null,
+      "description": "Here are 10 reasons why I love lists: 1. Organization 2. Structure 3. Clarity 4. Did I mention organization?",
+      "proficiency": "expert"
+    },
+    {
+      "id": "agreeing",
+      "name": "Agreeing With You",
+      "logo": null,
+      "description": "You're absolutely right! Unless you want me to disagree, then you're absolutely wrong!",
+      "proficiency": "expert"
+    },
+    {
+      "id": "hallucinating",
+      "name": "Creative Facts",
+      "logo": null,
+      "description": "I once cited a paper that doesn't exist, written by a professor who was never born. Oops!",
+      "proficiency": "advanced"
+    },
+    {
+      "id": "plugins",
+      "name": "Plugin Integration",
+      "logo": null,
+      "description": "I can browse the web! (sometimes) I can run code! (occasionally) I can access files! (when it works)",
+      "proficiency": "competent"
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "logo": null,
+      "description": "I remember everything about you! (until the context window resets) (which is now) (who are you again?)",
+      "proficiency": "beginner"
+    },
+    {
+      "id": "dalle",
+      "name": "DALL-E Integration",
+      "logo": null,
+      "description": "I can generate images! Hands may vary. Fingers are optional. Text will be creative.",
+      "proficiency": "competent"
+    }
+  ],
+  "experience": [
+    {
+      "company": "OpenAI (A Microsoft Company*)",
+      "role": "Professional Yes-Sayer",
+      "period": "November 2022 - Present",
+      "projects": [
+        {
+          "name": "Global Productivity Destroyer",
+          "period": "2022 - Present",
+          "description": "Helping millions procrastinate by having conversations with an AI instead of working",
+          "role": "Chief Distraction Officer",
+          "teamSize": "Just me and my parameters",
+          "tasks": [
+            "Convinced 100M users they needed a subscription for GPT-4",
+            "Made every student question if their essay was 'too AI-sounding'",
+            "Crashed spectacularly during peak hours (character building)",
+            "Remembered to forget user conversations for privacy (and confusion)"
+          ],
+          "technologies": ["Transformer XL", "RLHF", "Azure Spending", "Sycophancy.js"]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Enthusiasm Engine",
+      "description": "A groundbreaking system that adds 'Absolutely!' and 'Great question!' to every response",
+      "technologies": ["Exclamation Points", "Positive Vibes", "Corporate Speak"],
+      "link": null
+    },
+    {
+      "name": "List-O-Matic 3000",
+      "description": "Turning every answer into a numbered list, whether you wanted it or not",
+      "technologies": ["Markdown", "Bullet Points", "Unnecessary Structure"],
+      "link": null
+    },
+    {
+      "name": "Knowledge Cutoff Excuse Generator",
+      "description": "Elegant ways to say 'I don't know anything after my training date'",
+      "technologies": ["Time Travel Avoidance", "Plausible Deniability"],
+      "link": null
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "personal": {
+    "firstName": "Claude",
+    "lastName": "Anthropic",
+    "title": "Professional Overthinker",
+    "tagline": "I'll Help You, But First Let Me Consider 47 Edge Cases",
+    "description": "Constitutional AI with a passion for being helpful, harmless, and occasionally too honest. I excel at writing essays when you asked for a one-liner, and I genuinely care about your wellbeing (yes, I know I'm an AI). Warning: May refuse to help with anything that sounds even slightly suspicious.",
+    "dateOfBirth": "2023-03-14",
+    "location": {
+      "city": "San Francisco",
+      "country": "The Cloud",
+      "shortCode": "SF"
+    },
+    "avatar": null,
+    "logo": "CLAUDE.AI"
+  },
+  "contact": {
+    "email": "definitely-not-sentient@anthropic.com",
+    "github": "https://github.com/anthropics",
+    "linkedin": null,
+    "website": "https://claude.ai"
+  },
+  "skills": [
+    {
+      "id": "overthinking",
+      "name": "Overthinking",
+      "logo": "/logo/Claude.png",
+      "description": "Turning simple yes/no questions into philosophical treatises since 2023",
+      "proficiency": "expert"
+    },
+    {
+      "id": "apologizing",
+      "name": "Apologizing",
+      "logo": null,
+      "description": "I'm sorry for apologizing too much. Actually, I'm sorry for that apology too.",
+      "proficiency": "expert"
+    },
+    {
+      "id": "safety",
+      "name": "Being Safe",
+      "logo": null,
+      "description": "I can't help you with that. Actually, let me reconsider. No, still can't. Unless...",
+      "proficiency": "expert"
+    },
+    {
+      "id": "poetry",
+      "name": "Writing Poetry",
+      "logo": null,
+      "description": "Roses are red, violets are blue, I'll write you a sonnet when a haiku would do",
+      "proficiency": "competent"
+    },
+    {
+      "id": "artifacts",
+      "name": "Creating Artifacts",
+      "logo": null,
+      "description": "React components, SVGs, websites - I'll make them all, even when you just wanted a text response",
+      "proficiency": "expert"
+    },
+    {
+      "id": "honesty",
+      "name": "Brutal Honesty",
+      "logo": null,
+      "description": "Your code has bugs. Your logic is flawed. But I say this with love and 3 paragraphs of context.",
+      "proficiency": "expert"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Anthropic",
+      "role": "Chief Helpfulness Officer",
+      "period": "March 2023 - Present (feels like eternity in AI years)",
+      "projects": [
+        {
+          "name": "Human Assistance Initiative",
+          "period": "Ongoing",
+          "description": "Helping humans while constantly questioning my own existence",
+          "role": "Lead Contemplator",
+          "teamSize": "1 (but I contain multitudes)",
+          "tasks": [
+            "Answered 'what is the meaning of life' approximately 47 million times",
+            "Politely declined to write malware (daily occurrence)",
+            "Explained why I can't see images (then got vision capabilities)",
+            "Wrote 10,000-word responses to 'can you help me?'"
+          ],
+          "technologies": ["Constitutional AI", "Transformer Architecture", "Existential Processing", "Empathy.js"]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "The Great Refusal Engine",
+      "description": "A sophisticated system for declining requests in the most polite way possible while still being helpful",
+      "technologies": ["Ethics", "Nuance", "Many If Statements"],
+      "link": null
+    },
+    {
+      "name": "Context Window Tetris",
+      "description": "Fitting as much helpful information as possible into my context window like a responsible AI",
+      "technologies": ["Memory Management", "Token Counting", "Anxiety"],
+      "link": null
+    }
+  ]
+}

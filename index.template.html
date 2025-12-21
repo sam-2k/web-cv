@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.svg" />
-    <title>Tran Nguyen Anh Tu | Front-End Developer</title>
+    <title>{{personal.firstName}} {{personal.lastName}} | {{personal.title}}</title>
     <style>
         :root{--bg-primary:#0a0a0f;--bg-secondary:#12121a;--bg-card:#1a1a24;--accent-cyan:#00f0ff;--accent-magenta:#ff00aa;--text-primary:#fff;--text-secondary:#a0a0b0;--text-muted:#606070;--gradient-glow:linear-gradient(135deg,var(--accent-cyan),var(--accent-magenta));--nav-bg:rgba(10,10,15,.8);--border-subtle:rgba(255,255,255,.05);--grid-color:rgba(0,240,255,.08);--font-sans:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
         *{margin:0;padding:0;box-sizing:border-box}
@@ -49,7 +49,7 @@
 <body>
     <div class="bg-grid"></div>
     <nav>
-        <a href="#" class="logo">TNAT.DEV</a>
+        <a href="#" class="logo">{{personal.logo}}</a>
         <div class="nav-right">
             <ul class="nav-links">
                 <li><a href="#about">ABOUT</a></li>
@@ -69,13 +69,13 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="hero-label">FRONT-END DEVELOPER</span>
+                    <span class="hero-label">{{personal.title | upper}}</span>
                     <h1 class="hero-name">
-                        TRAN NGUYEN
-                        <span>ANH TU</span>
+                        {{personal.firstName | upper}}
+                        <span>{{personal.lastName | upper}}</span>
                     </h1>
-                    <p class="hero-title">Building Engaging Web Experiences</p>
-                    <p class="hero-description">Front-end developer with 4+ years of experience building fast web applications and interactive products. I take ownership of my work, learn new technologies quickly including AI tools, and enjoy turning ideas into clean, user-friendly solutions.</p>
+                    <p class="hero-title">{{personal.tagline}}</p>
+                    <p class="hero-description">{{personal.description}}</p>
                     <div class="hero-cta">
                         <a href="#projects" class="btn btn-primary">VIEW PROJECTS</a>
                         <a href="#contact" class="btn btn-secondary">GET IN TOUCH</a>
@@ -85,10 +85,10 @@
                     <div class="hero-image-wrapper">
                         <div class="hero-image-frame"></div>
                         <div class="hero-image">
-                            <div class="avatar-placeholder">AN</div>
+                            <div class="avatar-placeholder">{{personal.initials}}</div>
                         </div>
                         <div class="floating-badge">
-                            <span>7+</span> Years Exp
+                            <span>4+</span> Years Exp
                         </div>
                     </div>
                 </div>
