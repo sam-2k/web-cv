@@ -41,6 +41,40 @@
   --grid-color: rgba(0, 153, 170, 0.12);
 }
 
+/* Gradient Themes - use ?theme=T1 through ?theme=T8 */
+[data-theme-gradient="T1"] {
+  --gradient-glow: linear-gradient(135deg, #00f0ff, #ff00aa);
+  --accent-cyan: #00f0ff;
+}
+[data-theme-gradient="T2"] {
+  --gradient-glow: linear-gradient(135deg, #00d4ff, #9b59ff);
+  --accent-cyan: #00d4ff;
+}
+[data-theme-gradient="T3"] {
+  --gradient-glow: linear-gradient(135deg, #00ff88, #00f0ff);
+  --accent-cyan: #00ff88;
+}
+[data-theme-gradient="T4"] {
+  --gradient-glow: linear-gradient(135deg, #ff6b35, #ff00aa);
+  --accent-cyan: #ff6b35;
+}
+[data-theme-gradient="T5"] {
+  --gradient-glow: linear-gradient(135deg, #ffd700, #ff0080);
+  --accent-cyan: #ffd700;
+}
+[data-theme-gradient="T6"] {
+  --gradient-glow: linear-gradient(135deg, #00f0ff, #8b5cf6, #ff00aa);
+  --accent-cyan: #00f0ff;
+}
+[data-theme-gradient="T7"] {
+  --gradient-glow: linear-gradient(135deg, #4facfe, #00f2fe);
+  --accent-cyan: #4facfe;
+}
+[data-theme-gradient="T8"] {
+  --gradient-glow: linear-gradient(135deg, #ff6b6b, #a855f7);
+  --accent-cyan: #ff6b6b;
+}
+
 * {
   margin: 0;
   padding: 0;
