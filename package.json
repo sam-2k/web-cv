@@ -1,0 +1,26 @@
+{
+  "name": "web-cv",
+  "version": "1.0.0",
+  "description": "I'm just tired of drag and drop in Canva",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-2k/web-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-2k/web-cv/issues"
+  },
+  "homepage": "https://github.com/sam-2k/web-cv#readme",
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}

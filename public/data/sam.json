@@ -1,0 +1,225 @@
+{
+  "personal": {
+    "firstName": "Tran Nguyen",
+    "lastName": "Anh Tu",
+    "title": "Front-End Developer",
+    "tagline": "Building Interactive Gaming Experiences",
+    "description": "Specializing in slot game development using Cocos Creator engine. 3+ years of experience transforming creative visions into polished, performant games across web and mobile platforms.",
+    "dateOfBirth": "2000-09-10",
+    "location": {
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "shortCode": "TP.HCM"
+    },
+    "avatar": null,
+    "logo": "TNAT.DEV"
+  },
+  "contact": {
+    "email": "trannguyenanhtu1092@gmail.com",
+    "phone": "0703678161",
+    "github": "https://github.com/kakalak11",
+    "linkedin": null,
+    "website": null
+  },
+  "skills": [
+    {
+      "id": "cocos",
+      "name": "Cocos Creator",
+      "icon": "🎮",
+      "description": "Primary game engine for slot game development, animations, and UI implementation",
+      "proficiency": "expert"
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "icon": "🎯",
+      "description": "Game development experience with Unity engine for diverse project requirements",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript / TypeScript",
+      "icon": "⚡",
+      "description": "Core programming languages for game logic, feature development, and API integration",
+      "proficiency": "expert"
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "icon": "🔧",
+      "description": "Backend tooling, file manipulation, and development automation",
+      "proficiency": "intermediate"
+    },
+    {
+      "id": "html-css",
+      "name": "HTML / CSS",
+      "icon": "🎨",
+      "description": "Web interface development, custom tools UI, and responsive design",
+      "proficiency": "advanced"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "icon": "⚛️",
+      "description": "Modern web application development and component-based architecture",
+      "proficiency": "intermediate"
+    }
+  ],
+  "experience": [
+    {
+      "id": "enotion",
+      "company": "Enotion",
+      "role": "Front-End Developer",
+      "startDate": "2021-01",
+      "endDate": null,
+      "current": true,
+      "summary": "Develop slot games using Cocos engine",
+      "responsibilities": [
+        "Lead kick-start meetings with related teams and identify conflicts between game features display and data records for BE-FE contracts",
+        "Break down tasks to estimate required time, update Jira tickets, and assign tasks to team members",
+        "Contract with Back-end to define new fields in response data for project features",
+        "Initialize project repos with base source code and develop features in JavaScript/TypeScript",
+        "Transform art team's designs into UI elements in Cocos Creator and implement animation logic",
+        "Deploy to staging and production environments (web lobby and mobile devices)",
+        "Optimize game performance including drawcall and network requests",
+        "Debug mobile device issues using Xcode and Android Studio",
+        "Work with QC team to identify and fix bugs until project is deemed releasable",
+        "Maintain legacy projects and migrate to newer Cocos versions per client requirements",
+        "Build custom tools using Node.js for file manipulation and Chrome Extensions for team support",
+        "Contribute to and maintain base source code repository"
+      ],
+      "technologies": [
+        "Jira",
+        "Xcode",
+        "Android Studio",
+        "Cocos Creator",
+        "Electron",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "HTML/CSS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "ueh",
+      "institution": "UEH",
+      "institutionFullName": "University of Economics Ho Chi Minh City",
+      "degree": "Bachelor of Business Administration",
+      "field": "Business Administration",
+      "startDate": "2018",
+      "endDate": "2022",
+      "graduated": true
+    }
+  ],
+  "languages": [
+    {
+      "language": "Vietnamese",
+      "proficiency": "native"
+    },
+    {
+      "language": "English",
+      "proficiency": "professional",
+      "certification": "IELTS",
+      "score": "6.5"
+    }
+  ],
+  "projects": [
+    {
+      "id": "2048",
+      "title": "2048",
+      "description": "Classic 2048 puzzle game implementation",
+      "icon": "🎲",
+      "technologies": ["Cocos", "Tween", "Mask"],
+      "liveUrl": "https://kakalak11.github.io/2048/build/web-desktop/index.html",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "solitaire",
+      "title": "Solitaire",
+      "description": "Classic card game with smooth animations",
+      "icon": "🃏",
+      "technologies": [
+        "Cocos",
+        "AssetManager",
+        "PersistNode",
+        "Animation",
+        "AnimationClip",
+        "Widget"
+      ],
+      "liveUrl": "https://kakalak-solitaire.netlify.app/",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "minesweeper",
+      "title": "Minesweeper",
+      "description": "Classic minesweeper game with grid-based gameplay",
+      "icon": "💣",
+      "technologies": ["Cocos", "Layout Grid", "Collider2D"],
+      "liveUrl": "https://kakalak-minesweeper.netlify.app/",
+      "githubUrl": null,
+      "featured": true
+    },
+    {
+      "id": "pizza-order",
+      "title": "Pizza Order",
+      "description": "Learning HTML/CSS with Udemy - Pizza ordering web application",
+      "icon": "🍕",
+      "technologies": ["HTML", "CSS", "React"],
+      "liveUrl": "https://kakalak-pizzashop.netlify.app/",
+      "githubUrl": null,
+      "featured": false
+    },
+    {
+      "id": "shooter",
+      "title": "Shooter",
+      "description": "Learning project - 2D shooter game with physics",
+      "icon": "🔫",
+      "technologies": ["Cocos", "TiledMap", "RigidBody2D", "Collider2D"],
+      "liveUrl": "https://kakalak-shooter.netlify.app/",
+      "githubUrl": null,
+      "featured": false
+    },
+    {
+      "id": "plinko",
+      "title": "Plinko",
+      "description": "Trying out Matter.js - Physics-based Plinko game",
+      "icon": "⚪",
+      "technologies": ["HTML", "CSS", "React", "Matter.js"],
+      "liveUrl": "https://kakalak-plinko.netlify.app/",
+      "githubUrl": null,
+      "featured": false
+    },
+    {
+      "id": "cat-page",
+      "title": "Cat Page",
+      "description": "Side project using VanJS, an alternative to React",
+      "icon": "🐱",
+      "technologies": ["HTML", "CSS", "VanJS"],
+      "liveUrl": "https://kakalak-cat-page.netlify.app/",
+      "githubUrl": "https://github.com/kakalak11/cat-view/tree/main",
+      "featured": false
+    }
+  ],
+  "navigation": [
+    { "id": "about", "label": "ABOUT", "href": "#about" },
+    { "id": "skills", "label": "SKILLS", "href": "#skills" },
+    { "id": "experience", "label": "EXPERIENCE", "href": "#experience" },
+    { "id": "projects", "label": "PROJECTS", "href": "#projects" },
+    { "id": "contact", "label": "CONTACT", "href": "#contact" }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-12-21",
+    "theme": {
+      "primary": "#00f0ff",
+      "secondary": "#ff00aa",
+      "accent": "#f0ff00",
+      "background": "#0a0a0f",
+      "surface": "#1a1a24"
+    }
+  }
+}
