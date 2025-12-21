@@ -4,7 +4,7 @@
     "lastName": "Anh Tu",
     "title": "Front-End Developer",
     "tagline": "Crafting Engaging Digital Experiences",
-    "description": "Front-end developer with 3+ years of experience building performant web applications and interactive experiences. Passionate about turning complex ideas into intuitive, polished products — if it's interesting, I'll build it.",
+    "description": "Front-end developer with 4+ years of experience building performant web applications and interactive experiences. I take ownership of the products I build, embrace new technologies, and thrive on turning complex ideas into polished, user-focused solutions.",
     "dateOfBirth": "2000-09-10",
     "location": {
       "city": "Ho Chi Minh City",
@@ -68,37 +68,82 @@
   ],
   "experience": [
     {
+      "id": "fetch",
+      "company": "Fetch Technology",
+      "role": "Front-End Developer",
+      "startDate": "2025-02",
+      "endDate": null,
+      "current": true,
+      "summary": "Working with Fetch's clients, leveraging domain expertise to maintain and enhance products while seizing every opportunity to grow and contribute.",
+      "projects": [
+        {
+          "id": "casual-games",
+          "name": "Casual Games",
+          "description": "Casual games outsource project",
+          "startDate": "2025-02",
+          "endDate": "2025-05",
+          "role": "Front-End Developer",
+          "teamSize": 3,
+          "responsibilities": [
+            "Implement game logic and game UI",
+            "Collaborate with designers to improve product quality",
+            "Integrate with back-end services",
+            "Work with QA to maintain and resolve issues",
+            "Respond quickly to production issues",
+            "Support team members to balance workload"
+          ],
+          "technologies": ["WebSocket", "Vite", "React", "HTML", "CSS"]
+        },
+        {
+          "id": "rectangle-landing",
+          "name": "Rectangle Games Landing Page",
+          "description": "Landing page to showcase all games made by the studio",
+          "startDate": "2025-05",
+          "endDate": "2025-06",
+          "role": "Main Developer",
+          "teamSize": 2,
+          "responsibilities": [
+            "Responsible for entire UI implementation",
+            "Onboard and mentor new team member"
+          ],
+          "technologies": ["Next.js", "React", "HTML", "CSS"]
+        }
+      ],
+      "technologies": ["WebSocket", "Vite", "React", "Next.js", "HTML", "CSS"]
+    },
+    {
       "id": "enotion",
       "company": "Enotion",
       "role": "Front-End Developer",
       "startDate": "2021-01",
-      "endDate": null,
-      "current": true,
-      "summary": "Develop slot games using Cocos engine",
+      "endDate": "2025-01",
+      "current": false,
+      "summary": "Developed slot games using Cocos engine, taking ownership from project kickoff to deployment across web and mobile platforms.",
       "responsibilities": [
-        "Lead kick-start meetings with related teams and identify conflicts between game features display and data records for BE-FE contracts",
-        "Break down tasks to estimate required time, update Jira tickets, and assign tasks to team members",
-        "Contract with Back-end to define new fields in response data for project features",
-        "Initialize project repos with base source code and develop features in JavaScript/TypeScript",
-        "Transform art team's designs into UI elements in Cocos Creator and implement animation logic",
-        "Deploy to staging and production environments (web lobby and mobile devices)",
-        "Optimize game performance including drawcall and network requests",
-        "Debug mobile device issues using Xcode and Android Studio",
-        "Work with QC team to identify and fix bugs until project is deemed releasable",
-        "Maintain legacy projects and migrate to newer Cocos versions per client requirements",
-        "Build custom tools using Node.js for file manipulation and Chrome Extensions for team support",
-        "Contribute to and maintain base source code repository"
+        "Led project kick-start meetings and identified FE-BE contract conflicts",
+        "Broke down tasks, managed Jira tickets, and coordinated team assignments",
+        "Defined API contracts with back-end team for new features",
+        "Initialized project repositories and developed features in JavaScript/TypeScript",
+        "Transformed design mockups into polished UI elements in Cocos Creator",
+        "Implemented animation logic in collaboration with animation team",
+        "Deployed to staging and production environments (web and mobile)",
+        "Optimized performance including drawcalls and network requests",
+        "Debugged mobile issues using Xcode and Android Studio",
+        "Collaborated with QC to ensure release-ready quality",
+        "Maintained legacy projects and migrated to newer Cocos versions",
+        "Built internal tools using Node.js and Chrome Extensions",
+        "Contributed to and maintained shared codebase"
       ],
       "technologies": [
-        "Jira",
-        "Xcode",
-        "Android Studio",
         "Cocos Creator",
-        "Electron",
         "JavaScript",
         "TypeScript",
         "Node.js",
-        "HTML/CSS"
+        "HTML/CSS",
+        "Electron",
+        "Xcode",
+        "Android Studio",
+        "Jira"
       ]
     }
   ],
@@ -124,6 +169,13 @@
       "proficiency": "fluent",
       "note": "Proven experience collaborating with international teams"
     }
+  ],
+  "highlights": [
+    "Takes full ownership of products from concept to deployment",
+    "Quick to learn and adopt new technologies",
+    "Proactive in supporting teammates and balancing workloads",
+    "Experience across web apps, games, and landing pages",
+    "Strong collaboration with designers, QA, and back-end teams"
   ],
   "projects": [
     {
@@ -192,8 +244,8 @@
     { "id": "contact", "label": "CONTACT", "href": "#contact" }
   ],
   "meta": {
-    "version": "1.1.0",
-    "lastUpdated": "2024-12-21",
+    "version": "2.0.0",
+    "lastUpdated": "2025-12-21",
     "theme": {
       "primary": "#00f0ff",
       "secondary": "#ff00aa",

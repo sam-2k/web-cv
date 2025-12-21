@@ -30,6 +30,18 @@ export interface Skill {
   proficiency: 'beginner' | 'intermediate' | 'advanced' | 'expert' | 'competent'
 }
 
+export interface ExperienceProject {
+  id: string
+  name: string
+  description: string
+  startDate: string
+  endDate: string | null
+  role: string
+  teamSize: number
+  responsibilities: string[]
+  technologies: string[]
+}
+
 export interface Experience {
   id: string
   company: string
@@ -38,8 +50,9 @@ export interface Experience {
   endDate: string | null
   current: boolean
   summary: string
-  responsibilities: string[]
+  responsibilities?: string[]
   technologies: string[]
+  projects?: ExperienceProject[]
 }
 
 export interface Education {
@@ -55,9 +68,10 @@ export interface Education {
 
 export interface Language {
   language: string
-  proficiency: 'native' | 'professional' | 'intermediate' | 'basic'
+  proficiency: 'native' | 'fluent' | 'professional' | 'intermediate' | 'basic'
   certification?: string
   score?: string
+  note?: string
 }
 
 export interface Project {
