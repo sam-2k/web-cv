@@ -8,7 +8,7 @@
     "generate": "node scripts/generate-html.js",
     "serve": "vite",
     "dev": "node scripts/generate-html.js && vite ",
-    "server":"nodemon src/server/server.cjs",
+    "server": "nodemon src/server/server.cjs",
     "build": "node scripts/generate-html.js && vite build",
     "preview": "vite preview"
   },
@@ -35,6 +35,7 @@
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "sharp": "^0.34.5"
   }
 }
